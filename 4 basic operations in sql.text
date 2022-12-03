@@ -1,0 +1,50 @@
+ lets do some operation in database
+
+
+ lets create the table in database
+ for creating a table 
+ CREATE TABLE NAME_OF_TABLE ;
+
+
+ FOR DELETE THE TABLE
+ DROP TABLE name  ;
+
+
+ for editing in table 
+ ALTER TABLE name ADD column_name  datatype ;
+ ALTER TABLE name DROP column_name ;
+
+
+ now lets add the data 
+ INSERT INTO name VALUES(...,....,....,...);
+
+
+ LETS SEE THE table 
+ SELECT * FROM name ;
+ DESCRIBE name ;
+
+ LETs update the word in table 
+ UPDATE name
+ SET column name ='new name' 
+ WHERE column_name='old name';
+ or we can write any other condition in WHERE
+ eg :- SET student_name = 'boring'
+       WHERE grades <5 OR >10;
+
+
+
+lets delete the row 
+DELETE student 
+WHERE GRADES <5 OR NAME 'AKSHAT';
+
+
+
+LETS FIND THE INFO FROM THE TABLE IN database
+SELECT name 
+FROM students ;
+this will return name column only
+
+eg:- 
+SELECT password 
+FROM student
+WHERE email='kakshat35@gmail.com';

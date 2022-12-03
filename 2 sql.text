@@ -1,0 +1,12 @@
+relational database managemant system(RDBMS)
+to interect with the RDBMS we use SQL 
+
+
+queries are request made to the database management system for specific information
+ 
+
+ SQL is made of 4 different languade 
+ 1. data query language(DQL)
+ 2. data defination language(DDL)
+ 3. data control language(DCL)
+ 4. data manipulation language(DML)
